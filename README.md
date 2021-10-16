@@ -4,7 +4,7 @@
 
 ![Resultado do projeto](demo/demo.gif)
 
-<h4 align="center"><a href="https://venom.vercel.app/">Clique aqui para ver o projeto</a></h4>
+<h4 align="center"><a href="https://venom-carnage.vercel.app/">Clique aqui para ver o projeto</a></h4>
 
 ---
 
