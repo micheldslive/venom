@@ -22,7 +22,7 @@
 
 ## 💻 Projeto
 
-- **Descrição:** Venom é um pequeno projeto idealizado / desenvolvido para treinar minhas skills no ReactJS.
+**Descrição:** Venom é um pequeno projeto idealizado / desenvolvido para treinar minhas skills no ReactJS.
 
 ![Resultado do projeto](demo/demo.gif)
 
