@@ -2,10 +2,6 @@ import styled, { keyframes } from "styled-components";
 import { Link } from "react-router-dom";
 import VenomSpider from "assets/images/venom-spider.svg";
 import { ReactComponent as VenomEye } from "assets/images/venom-eye.svg";
-import { ReactComponent as FaceSvg } from "assets/images/facebook.svg";
-import { ReactComponent as InstaSvg } from "assets/images/instagram.svg";
-import { ReactComponent as LinkedinSvg } from "assets/images/linkedin.svg";
-import { ReactComponent as TwitterSvg } from "assets/images/twitter.svg";
 
 export const HeaderContent = styled.header`
   position: fixed;
@@ -261,11 +257,3 @@ export const SocialLink = styled.a`
     }
   }
 `;
-
-export const Facebook = styled(FaceSvg)``;
-
-export const Instagram = styled(InstaSvg)``;
-
-export const Linkedin = styled(LinkedinSvg)``;
-
-export const Twitter = styled(TwitterSvg)``;

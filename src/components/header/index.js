@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { menu } from "services/menu";
+import { social } from "services/social";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 import { NavLink } from "react-router-dom";
 import {
@@ -17,28 +18,17 @@ import {
   LogoLink,
   SocialContent,
   SocialLink,
-  Facebook,
-  Instagram,
-  Linkedin,
-  Twitter,
 } from "assets/styles/header";
 
 class Social extends Component {
   render() {
     return (
       <SocialContent mobile={this.props.mobile}>
-        <SocialLink href="https://web.facebook.com/micheldslive/" target="_blank">
-          <Facebook />
-        </SocialLink>
-        <SocialLink href="https://www.instagram.com/micheldslive/" target="_blank">
-          <Instagram />
-        </SocialLink>
-        <SocialLink href="https://www.linkedin.com/in/micheldslive/" target="_blank">
-          <Linkedin />
-        </SocialLink>
-        <SocialLink href="https://web.facebook.com/micheldslive/" target="_blank">
-          <Twitter />
-        </SocialLink>
+        {social.map(({ id, link, Icon }) => (
+          <SocialLink key={id} href={link} target="_blank">
+            <Icon />
+          </SocialLink>
+        ))}
       </SocialContent>
     );
   }
