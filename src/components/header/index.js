@@ -24,8 +24,8 @@ class Social extends Component {
   render() {
     return (
       <SocialContent mobile={this.props.mobile}>
-        {social.map(({ id, link, Icon }) => (
-          <SocialLink key={id} href={link} target="_blank">
+        {social.map(({ id, to, Icon }) => (
+          <SocialLink key={id} href={to} target="_blank">
             <Icon />
           </SocialLink>
         ))}

@@ -6,22 +6,22 @@ import { ReactComponent as Twitter } from "assets/images/twitter.svg";
 export const social = [
   {
     id: 1,
-    href: "https://web.facebook.com/micheldslive/",
+    to: "https://web.facebook.com/micheldslive/",
     Icon: Facebook,
   },
   {
     id: 2,
-    href: "https://www.instagram.com/micheldslive/",
+    to: "https://www.instagram.com/micheldslive/",
     Icon: Instagram,
   },
   {
     id: 3,
-    href: "https://www.linkedin.com/in/micheldslive/",
+    to: "https://www.linkedin.com/in/micheldslive/",
     Icon: Linkedin,
   },
   {
     id: 4,
-    href: "https://web.facebook.com/micheldslive/",
+    to: "https://web.facebook.com/micheldslive/",
     Icon: Twitter,
   },
 ];
